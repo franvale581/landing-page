@@ -115,6 +115,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     text-align: center;
+    padding-left: 10px;
 }
 
 .hero-info span {
@@ -208,9 +209,9 @@ body {
     }
 }
 
-/* info section */
+/* hero about section */
 
-#hero-info-2 {
+#hero-about {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -220,25 +221,26 @@ body {
     border: 1px solid var(--border-grey);
 }
 
-.hero-info-2-container{
+.hero-about-container{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px 60px;
 }
 
-#hero-info-2 h3{
+#hero-about h3{
     font-size: 32px;
     font-weight: 700;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.hero-info-2-container p{
+.hero-about-container p{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 18px;
     font-weight: 400;
     padding-bottom: 40px;
 }
