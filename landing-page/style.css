@@ -3,10 +3,10 @@
 :root {
     --bg-yw: rgb(255, 176, 4);
     --bg-wt: rgb(248, 248, 248);
-    --text-grey: rgb(196, 196, 196);
+    --text-grey: rgb(114, 113, 113);
     --border-grey: rgb(209, 207, 207);
     --btn-bg: rgb(0, 0, 0);
-    --bg-feed: ;
+    --text-card: rgb(56, 59, 60);
 }
 
 * {
@@ -243,4 +243,238 @@ body {
     font-size: 18px;
     font-weight: 400;
     padding-bottom: 40px;
+}
+
+/* Cards Section */
+
+#cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: var(--bg-wt);
+    border: 1px solid var(--border-grey);
+}
+
+#cards h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin-bottom: 3rem;
+    font-weight: 700;
+}
+
+#cards .p-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 4rem;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.cards {
+    height: 400px;
+    width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 50px 50px;
+    border-radius: 25px;
+    border: 2px solid black;
+    background: var(--bg-yw);
+}
+
+.parrafo-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-card);
+    padding: 10px 20px;
+}
+
+.card-img {
+    height: 220px;
+    width: 220px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+/* contact section */
+
+/* first 25% contact section*/
+
+#contact {
+    background: var(--bg-wt);
+    border: 1px solid var(--border-grey);
+    width: 100%;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact-hd {
+    display: flex;
+    justify-content: start;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 3rem;
+    margin-right: 30rem;
+    margin-bottom: 20px;
+    padding-top: 2.5rem;
+}
+
+.contact-about-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 17rem;
+}
+
+.place-info-1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 10rem;
+}
+
+.contact-info-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-right: 10rem;
+    gap: 1rem;
+}
+
+.street-img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+
+}
+
+.mail-img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-left: 2.5rem;
+}
+
+.phone-img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+}
+
+.adress-st {
+    color: var(--text-grey);
+}
+
+.adress-ml {
+    color: var(--text-grey);
+}
+
+.adress-nbr {
+    color: var(--text-grey);
+    margin-right: 1.7rem;
+}
+
+/* another 25% contact section */
+
+.contact-about-2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: -276px 0px 0px 200px;
+
+}
+
+.place-info-2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10rem;
+}
+
+.contact-info-container-2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 10rem;
+    gap: 1rem;
+}
+
+.street-img-2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-left: 1rem;
+}
+
+.mail-img-2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    margin-left: 3.2rem;
+}
+
+.phone-img-2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+}
+
+.adress-st-2 {
+    color: var(--text-grey);
+}
+
+.adress-ml-2 {
+    color: var(--text-grey);
+}
+
+.adress-nbr-2 {
+    color: var(--text-grey);
+    margin-right: 1rem;
+}
+
+/* 50% section contact */
+
+.contact-img {
+    width: 50%;
+    height: 50%;
 }
