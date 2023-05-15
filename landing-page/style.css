@@ -93,8 +93,8 @@ body {
     background: var(--bg-wt);
     border: 1px solid var(--border-grey);
     width: 100%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
 }
 
 .hero-info {
@@ -152,8 +152,8 @@ body {
 }
 
 .hero-card img {
-    height: 400px;
-    width: 400px;
+    height: 550px;
+    width: 550px;
     margin: 0px 100px 0px 100px;
 }
 
@@ -219,6 +219,8 @@ body {
     width: 100%;
     background: var(--bg-wt);
     border: 1px solid var(--border-grey);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 .hero-about-container{
@@ -255,6 +257,8 @@ body {
     width: 100%;
     background: var(--bg-wt);
     border: 1px solid var(--border-grey);
+    padding-bottom: 5rem;
+    padding-top: 5rem;
 }
 
 #cards h3{
@@ -289,7 +293,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0 50px 50px;
+    margin: 0 50px;
     border-radius: 25px;
     border: 2px solid black;
     background: var(--bg-yw);
@@ -444,9 +448,36 @@ body {
 .contact-img-container{
     width: 100%;
     padding-left: 14rem;
+    padding-bottom: 3rem;
 }
 
 .contact-img {
     width: 650px;
-    height: 450px;
+    height: 550px;
+}
+
+/* footer section */
+
+#footer {
+    background: var(--bg-wt);
+    border: 1px solid var(--border-grey);
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-container img {
+    width: 10rem;
+    height: 9rem;
+}
+
+.p-footer {
+    color: var(--text-grey);
+    position: absolute;
+    padding-top: 6rem;
 }
