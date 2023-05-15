@@ -325,69 +325,50 @@ body {
 
 .contact-info {
     display: flex;
-    align-items: center;
-    flex-direction: column;
     width: 50%;
 }
 
 .contact-hd {
-    display: flex;
-    justify-content: start;
     font-size: 32px;
     font-weight: 700;
-    margin-left: 3rem;
-    margin-right: 30rem;
-    margin-bottom: 20px;
-    padding-top: 2.5rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
 }
 
 .contact-about-1 {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-right: 17rem;
+    gap: 2rem;
 }
 
 .place-info-1 {
-    display: flex;
-    justify-content: start;
-    align-items: center;
     font-weight: 700;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-right: 10rem;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
 }
 
 .contact-info-container {
     display: flex;
     justify-content: start;
     align-items: center;
-    margin-right: 10rem;
     gap: 1rem;
 }
 
 .street-img {
-    display: flex;
-    justify-content: start;
-    align-items: center;
     width: 25px;
     height: 25px;
 
 }
 
 .mail-img {
-    display: flex;
-    justify-content: start;
-    align-items: center;
     width: 25px;
     height: 25px;
     margin-left: 2.5rem;
 }
 
 .phone-img {
-    display: flex;
-    justify-content: start;
-    align-items: center;
     width: 25px;
     height: 25px;
 }
@@ -411,50 +392,34 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: -276px 0px 0px 200px;
-
+    gap: 2rem;
 }
 
 .place-info-2 {
-    display: flex;
-    justify-content: end;
-    align-items: center;
     font-weight: 700;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 10rem;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
 }
 
 .contact-info-container-2 {
     display: flex;
-    justify-content: end;
     align-items: center;
-    margin-left: 10rem;
     gap: 1rem;
 }
 
 .street-img-2 {
-    display: flex;
-    justify-content: end;
-    align-items: center;
     width: 25px;
     height: 25px;
     margin-left: 1rem;
 }
 
 .mail-img-2 {
-    display: flex;
-    justify-content: end;
-    align-items: center;
     width: 25px;
     height: 25px;
     margin-left: 3.2rem;
 }
 
 .phone-img-2 {
-    display: flex;
-    justify-content: end;
-    align-items: center;
     width: 25px;
     height: 25px;
 }
@@ -476,8 +441,7 @@ body {
 
 .contact-img-container{
     width: 100%;
-    padding-left: 20rem;
-    padding-top: 5rem;
+    padding-left: 14rem;
 }
 
 .contact-img {
